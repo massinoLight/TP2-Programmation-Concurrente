@@ -79,6 +79,26 @@ def factorielle(n):
 
 if __name__ == '__main__':
 
+
+   compte_mots("")
+   compte_mots("il ingurgite impunément un iguane.")
+   compte_mots("coursdeprogrammation")
+   compte_mots(" Attention aux espaces consécutifs ou terminaux ")
+   remplace_multiple('botjaurLaMonde', 'noe', 2)  # bonjourLeMonde
+   remplace_multiple('abacus', 'oiseau', 2)  # ’abocisseau’
+   remplace_multiple('hirondelles', 'nid', 3)  # ’hirnndillds’ici le e ne doit pas passer en d car 2n=12 et non pas 9
+   remplace_multiple('', '', 2)  #
+
+   print(termeU(0))
+   print(termeU(1))
+   print(termeU(5))
+   print(termeU(10))
+
+   print(serie(0))
+   print(serie(1))
+   print(serie(5))
+   print(serie(10))
+   temp_passe(100)
    print(factorielle(1))
    print(factorielle(2))
    print(factorielle(3))
